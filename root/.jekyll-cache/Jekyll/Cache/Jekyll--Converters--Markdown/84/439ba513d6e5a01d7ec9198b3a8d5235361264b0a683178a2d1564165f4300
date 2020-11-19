@@ -1,0 +1,129 @@
+I"b<section class="section potfolio portfolio-main">
+    <div class="portfolio-container">
+        <h1>Портфолио</h1>
+        <div class="portfolio-list">
+            
+                <article class="portfolio-item">
+                    <a href="/works/activebox.html">
+                        <div class="portfolio-img">
+                            <img src="/assets/images/src/Portfolio/Activebox.jpg" alt="Trivago" />
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Лендинг Activebox</h3>
+                            <p>Верстка лендинга для интернет компании, аддаптив, сss эффекты</p>
+                        </div>
+                    </a>
+                </article>
+            
+                <article class="portfolio-item">
+                    <a href="/works/ave.html">
+                        <div class="portfolio-img">
+                            <img src="/assets/images/src/Portfolio/Ave.jpg" alt="Trivago" />
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Сайт интернет-магазина Ave</h3>
+                            <p>Верстка многостраничного интернет-магазина одежды, аддаптив</p>
+                        </div>
+                    </a>
+                </article>
+            
+                <article class="portfolio-item">
+                    <a href="/works/barbershop.html">
+                        <div class="portfolio-img">
+                            <img src="/assets/images/src/Portfolio/Barbershop.jpg" alt="Trivago" />
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Информационный сайт/интернет-магазин Barbershop</h3>
+                            <p>Верстка многостраничного макета барбершопа</p>
+                        </div>
+                    </a>
+                </article>
+            
+                <article class="portfolio-item">
+                    <a href="/works/device.html">
+                        <div class="portfolio-img">
+                            <img src="/assets/images/src/Portfolio/Device.jpg" alt="Trivago" />
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Сайт интернет-магазина Device</h3>
+                            <p>Верстка интернет-магазина техники</p>
+                        </div>
+                    </a>
+                </article>
+            
+                <article class="portfolio-item">
+                    <a href="/works/harlamov_academy.html">
+                        <div class="portfolio-img">
+                            <img src="/assets/images/src/Portfolio/HarlamovAcademy.jpg" alt="Trivago" />
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Сайт хоккейной академии Харламова</h3>
+                            <p>Создан дизайн с нуля, адаптивно сверстан и посажен на хостинг.</p>
+                        </div>
+                    </a>
+                </article>
+            
+                <article class="portfolio-item">
+                    <a href="/works/miniyoko.html">
+                        <div class="portfolio-img">
+                            <img src="/assets/images/src/Portfolio/Miniyoko.jpg" alt="Trivago" />
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Интернет магазин Miniyoko</h3>
+                            <p>Сделан дизайн, сверстан адаптивно и посажен на хостинг (в разработке).</p>
+                        </div>
+                    </a>
+                </article>
+            
+                <article class="portfolio-item">
+                    <a href="/works/mogo.html">
+                        <div class="portfolio-img">
+                            <img src="/assets/images/src/Portfolio/Mogo.png" alt="Trivago" />
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Сайт компании Mogo</h3>
+                            <p>Верстка лендинга для интернет компании, аддаптив, jquery эффекты.</p>
+                        </div>
+                    </a>
+                </article>
+            
+                <article class="portfolio-item">
+                    <a href="/works/npo_atom.html">
+                        <div class="portfolio-img">
+                            <img src="/assets/images/src/Portfolio/Npo_atom.jpg" alt="Trivago" />
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Сайт компании НПО-Атом</h3>
+                            <p>Создан дизайн с нуля, адаптивно сверстан и посажен на хостинг.</p>
+                        </div>
+                    </a>
+                </article>
+            
+                <article class="portfolio-item">
+                    <a href="/works/szkmsk.html">
+                        <div class="portfolio-img">
+                            <img src="/assets/images/src/Portfolio/Szkmsk.jpg" alt="Trivago" />
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Сайт юридических услуг Союз Консалтинг</h3>
+                            <p>Создан на конструкторе Tilda и посажен на хостинг.</p>
+                        </div>
+                    </a>
+                </article>
+            
+                <article class="portfolio-item">
+                    <a href="/works/wanderlust_travel.html">
+                        <div class="portfolio-img">
+                            <img src="/assets/images/src/Portfolio/Wanderlust_travel.jpg" alt="Trivago" />
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Сайт тревел компании Wanderlust travel</h3>
+                            <p>Произведена посадка на хостинг.</p>
+                        </div>
+                    </a>
+                </article>
+            
+        </div>
+    </div>
+</section>
+:ET

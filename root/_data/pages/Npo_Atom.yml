@@ -1,0 +1,20 @@
+- name: Главная
+  link: https://atom-npo.ru/
+
+- name: О компании
+  link: https://atom-npo.ru/o-kompanii-ooo-npo-atom/
+
+- name: Примеры работ
+  link: https://atom-npo.ru/category/primery-vypolnennyh-proektov/
+
+- name: Продукты и услуги
+  link: https://atom-npo.ru/category/production_and_service/
+  
+- name: Работа в компании
+  link: https://atom-npo.ru/rabota-v-kompanii/
+  
+- name: Новости
+  link: https://atom-npo.ru/category/news/
+
+- name: Контакты
+  link: https://atom-npo.ru/contact/

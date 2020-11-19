@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ave-Brand</title>
+	<link rel="stylesheet" href="CSS/Header.css">
+	<link rel="stylesheet" href="CSS/Lookbook.css">
+	<link rel="stylesheet" href="CSS/Footer.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header class="header header-home">
+		<div class="header-top">
+			<div class="header-top-container">
+				<div class="currency">
+					<span class="currency-title">Currency :</span>
+					<button type="button" class="currency-btn">
+						<span class="currency-item-select">Gbp</span>
+						<ul class="currency-list">
+							<li class="currency-item selected">Gbp</li>
+							<li class="currency-item">Usd</li>
+							<li class="currency-item">Eur</li>
+						</ul>
+					</button>
+				</div>
+				<div class="site-nav">
+					<div class="sign_it_register">
+						<a href="Sign_Up.html">Register</a>
+						<a href="Sign_Up.html">Sign In</a>
+					</div>
+					<button type="button" class="cart-btn">
+						<span class="svg">
+							<svg height="18px" viewBox="0 -31 512.00033 512" width="20px" xmlns="http://www.w3.org/2000/svg">
+								<path d="m166 300.003906h271.003906c6.710938 0 12.597656-4.4375 14.414063-10.882812l60.003906-210.003906c1.289063-4.527344.40625-9.390626-2.433594-13.152344-2.84375-3.75-7.265625-5.964844-11.984375-5.964844h-365.632812l-10.722656-48.25c-1.523438-6.871094-7.617188-11.75-14.648438-11.75h-91c-8.289062 0-15 6.710938-15 15 0 8.292969 6.710938 15 15 15h78.960938l54.167968 243.75c-15.9375 6.929688-27.128906 22.792969-27.128906 41.253906 0 24.8125 20.1875 45 45 45h271.003906c8.292969 0 15-6.707031 15-15 0-8.289062-6.707031-15-15-15h-271.003906c-8.261719 0-15-6.722656-15-15s6.738281-15 15-15zm0 0"/>
+								<path d="m151 405.003906c0 24.816406 20.1875 45 45.003906 45 24.8125 0 45-20.183594 45-45 0-24.8125-20.1875-45-45-45-24.816406 0-45.003906 20.1875-45.003906 45zm0 0"/>
+								<path d="m362.003906 405.003906c0 24.816406 20.1875 45 45 45 24.816406 0 45-20.183594 45-45 0-24.8125-20.183594-45-45-45-24.8125 0-45 20.1875-45 45zm0 0"/>
+							</svg>
+						</span>
+						<span class="cart-status">empty</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<nav class="main-nav">
+				<a href="Home.html" class="main-logo"><b>avenue</b> fashion</a>
+				<div class="main-menu">
+					<button type="button" class="burger-menu"><span class="burger-row">BurgerMenu</span></button>
+					<ul class="main-links list">
+						<li class="main-link-container">
+							<button type="button" href="Home.html" class="main-button sub-menu" data-open="#MensSubMenu">mens</button>
+							<div class="main-sub-menu" id="MensSubMenu">
+								<div class="sub-menu-column">
+									<h2>casuals</h2>
+									<ul class="menu-colum list">
+										<li><a href="#">Jackets</a></li>
+										<li><a href="#">Hoodies & Sweatshirts</a></li>
+										<li><a href="#">Polo Shirts</a></li>
+										<li><a href="#">Sportswear</a></li>
+										<li><a href="#">Trousers & Chinos</a></li>
+										<li><a href="#">T-Shirts</a></li>
+									</ul>
+								</div>
+								<div class="sub-menu-column">
+									<h2>formal</h2>
+									<ul class="menu-colum list">
+										<li><a href="#">Jackets</a></li>
+										<li><a href="#">Shirts</a></li>
+										<li><a href="#">Suits</a></li>
+										<li><a href="#">Trousers</a></li>
+									</ul>
+								</div>
+								<a href="#" class="sub-menu-banner">
+									<b>Autumn sale!</b>
+									<span>up to 50% off</span>
+								</a>
+							</div>
+						</li>
+						<li class="main-link-container">
+							<button type="button" href="#" class="main-button sub-menu" data-open="#WomensSubMenu">womens</button>
+							<div class="main-sub-menu" id="WomensSubMenu">
+								<div class="sub-menu-column">
+									<h2>casuals</h2>
+									<ul class="menu-colum list">
+										<li><a href="#">Jackets</a></li>
+										<li><a href="#">Hoodies & Sweatshirts</a></li>
+										<li><a href="#">Polo Shirts</a></li>
+										<li><a href="#">Sportswear</a></li>
+										<li><a href="#">Trousers & Chinos</a></li>
+										<li><a href="#">T-Shirts</a></li>
+									</ul>
+								</div>
+								<div class="sub-menu-column">
+									<h2>formal</h2>
+									<ul class="menu-colum list">
+										<li><a href="#">Jackets</a></li>
+										<li><a href="#">Shirts</a></li>
+										<li><a href="#">Suits</a></li>
+										<li><a href="#">Trousers</a></li>
+									</ul>
+								</div>
+								<a href="#" class="sub-menu-banner">
+									<b>Autumn sale!</b>
+									<span>up to 50% off</span>
+								</a>
+							</div>
+						</li>
+						<li class="main-link-container">
+							<a href="The_Brand.html" class="main-button">the brand</a>
+						</li>
+						<li class="main-link-container">
+							<a href="Local_Stores.html" class="main-button">local stores</a>
+						</li>
+						<li class="main-link-container">
+							<button type="button" href="Lookbook.html" class="main-button sub-menu" data-open="#LookBookSubMenu">look book</button>
+							<div class="main-sub-menu sub-menu-lookbook" id="LookBookSubMenu">
+								<div class="sub-menu-column">
+									<h2>Our Lookbooks</h2>
+									<ul class="menu-colum list">
+										<li><a href="Lookbook.html">Latest Posts (mixed)</a></li>
+										<li><a href="#">Men’s Lookbook</a></li>
+										<li><a href="#">Women’s Lookbook</a></li>
+									</ul>
+								</div>
+								<div class="sub-menu-column">
+									<h2>Your Lookbook</h2>
+									<ul class="menu-colum list">
+										<li><a href="#">View and Edit</a></li>
+										<li><a href="#">Share</a></li>
+										<li><a href="#">Delete</a></li>
+									</ul>
+								</div>
+								<a href="#" class="sub-menu-banner">
+									<b>Autumn sale!</b>
+									<span>up to 50% off</span>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<div class="search">
+						<input type="text" placeholder="Search..">
+						<button>
+							Search button
+							<span class="svg">
+								<svg id="Capa_1" enable-background="new 0 0 515.558 515.558" height="15" viewBox="0 0 515.558 515.558" width="13" xmlns="http://www.w3.org/2000/svg">
+									<path d="m378.344 332.78c25.37-34.645 40.545-77.2 40.545-123.333 0-115.484-93.961-209.445-209.445-209.445s-209.444 93.961-209.444 209.445 93.961 209.445 209.445 209.445c46.133 0 88.692-15.177 123.337-40.547l137.212 137.212 45.564-45.564c0-.001-137.214-137.213-137.214-137.213zm-168.899 21.667c-79.958 0-145-65.042-145-145s65.042-145 145-145 145 65.042 145 145-65.043 145-145 145z"/>
+								</svg>
+							</span>
+						</button>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<section class="main-title main-title-loook-book">
+			<img src="CSS/Images/titleBG-Ave.png" alt="" class="ave-bg">
+			<div class="container">
+				<h1><b>our</b> lookbook</h1>
+				<ul class="bread_crumbs list">
+					<li><a href="#">Latest Posts</a></li>
+					<li><a href="Lookbook.html">mens & womens</a></li>
+				</ul>
+			</div>
+		</section>
+		<section class="products">
+			<div class="container">
+				<h2 class="visually-hidden">Products</h2>
+				<ul class="categories list">
+					<h3 class="visually-hidden">Categories</h3>
+					<li><button type="button" class="selected">latest</button></li>
+					<li><button type="button">most liked</button></li>
+					<li><button type="button">best sellers </button></li>
+					<li><button type="button">price low to high</button></li>
+					<li><button type="button">price high to low</button></li>
+				</ul>                                                          
+				<div class="products-list">
+					<div class="product-item">
+						<div class="img-container">
+							<a href="Product-view.html">
+								<div class="price">
+									<span class="cur-price"><b>Ref</b>M1</span>
+								</div>
+								<img src="CSS/Images/Products/photo.jpg" alt="" class="main-img">
+								<div class="item-btns-container">
+									<a href="Product-view.html">
+										<span class="info-btn">
+											<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M437.02,74.98C388.667,26.629,324.38,0,256,0S123.333,26.629,74.98,74.98C26.629,123.333,0,187.62,0,256
+															s26.629,132.667,74.98,181.02C123.333,485.371,187.62,512,256,512s132.667-26.629,181.02-74.98
+															C485.371,388.667,512,324.38,512,256S485.371,123.333,437.02,74.98z M256,70c30.327,0,55,24.673,55,55c0,30.327-24.673,55-55,55
+															c-30.327,0-55-24.673-55-55C201,94.673,225.673,70,256,70z M326,420H186v-30h30V240h-30v-30h110v180h30V420z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+									<a href="#">
+										<span class="svg">
+											<svg viewBox="0 0 512 512" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M256,0C114.837,0,0,114.843,0,256s114.837,256,256,256s256-114.843,256-256S397.163,0,256,0z M381.804,281.636
+															l-114,114.011c-3.131,3.131-7.381,4.892-11.804,4.892c-4.423,0-8.674-1.761-11.804-4.892l-114-114.017
+															c-15.772-15.755-24.457-36.723-24.457-59.021s8.685-43.266,24.457-59.027c15.75-15.761,36.706-24.451,59.021-24.451
+															c22.315,0,43.272,8.691,59.032,24.462l7.75,7.745l7.761-7.756c15.75-15.761,36.706-24.451,59.021-24.451
+															s43.272,8.691,59.032,24.462c15.761,15.75,24.446,36.717,24.446,59.016S397.576,265.875,381.804,281.636z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+								</div>
+							</a>
+						</div>
+					</div><!-- Product-item -->
+					<div class="product-item">
+						<div class="img-container">
+							<a href="Product-view.html">
+								<div class="price">
+									<span class="cur-price"><b>Ref</b>W1</span>
+								</div>
+								<img src="CSS/Images/Products/photo-1.jpg" alt="" class="main-img">
+								<div class="item-btns-container">
+									<a href="Product-view.html">
+										<span class="info-btn">
+											<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M437.02,74.98C388.667,26.629,324.38,0,256,0S123.333,26.629,74.98,74.98C26.629,123.333,0,187.62,0,256
+															s26.629,132.667,74.98,181.02C123.333,485.371,187.62,512,256,512s132.667-26.629,181.02-74.98
+															C485.371,388.667,512,324.38,512,256S485.371,123.333,437.02,74.98z M256,70c30.327,0,55,24.673,55,55c0,30.327-24.673,55-55,55
+															c-30.327,0-55-24.673-55-55C201,94.673,225.673,70,256,70z M326,420H186v-30h30V240h-30v-30h110v180h30V420z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+									<a href="#">
+										<span class="svg">
+											<svg viewBox="0 0 512 512" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M256,0C114.837,0,0,114.843,0,256s114.837,256,256,256s256-114.843,256-256S397.163,0,256,0z M381.804,281.636
+															l-114,114.011c-3.131,3.131-7.381,4.892-11.804,4.892c-4.423,0-8.674-1.761-11.804-4.892l-114-114.017
+															c-15.772-15.755-24.457-36.723-24.457-59.021s8.685-43.266,24.457-59.027c15.75-15.761,36.706-24.451,59.021-24.451
+															c22.315,0,43.272,8.691,59.032,24.462l7.75,7.745l7.761-7.756c15.75-15.761,36.706-24.451,59.021-24.451
+															s43.272,8.691,59.032,24.462c15.761,15.75,24.446,36.717,24.446,59.016S397.576,265.875,381.804,281.636z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+								</div>
+							</a>
+						</div>
+					</div><!-- Product-item -->
+					<div class="product-item long">
+						<div class="lookbook-description">
+							<h3><b>Jane’s</b> lookbook</h3>
+							<b class="lookbook-subtitle">get the look for under £200!</b>
+							<p>
+								We invited actress Jane Marshall to join us
+								for the day and choose her perfect outfit from
+								our vast range of womens fashion.
+							</p>
+							<p>
+								This is of course not true as this is just a design
+								for a website and this is simply filler text.
+							</p>
+							<a href="#" class="lookbook-link">
+								<span>View now</span>
+							</a>
+						</div>
+						<div class="img-container">
+							<img src="" alt="" class="main-img">
+						</div>
+					</div>
+					<div class="product-item">
+						<div class="img-container">
+							<a href="Product-view.html">
+								<div class="price">
+									<span class="cur-price"><b>Ref</b>refMJ1</span>
+								</div>
+								<img src="CSS/Images/Products/photo-2.jpg" alt="" class="main-img">
+								<div class="item-btns-container">
+									<a href="Product-view.html">
+										<span class="info-btn">
+											<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M437.02,74.98C388.667,26.629,324.38,0,256,0S123.333,26.629,74.98,74.98C26.629,123.333,0,187.62,0,256
+															s26.629,132.667,74.98,181.02C123.333,485.371,187.62,512,256,512s132.667-26.629,181.02-74.98
+															C485.371,388.667,512,324.38,512,256S485.371,123.333,437.02,74.98z M256,70c30.327,0,55,24.673,55,55c0,30.327-24.673,55-55,55
+															c-30.327,0-55-24.673-55-55C201,94.673,225.673,70,256,70z M326,420H186v-30h30V240h-30v-30h110v180h30V420z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+									<a href="#">
+										<span class="svg">
+											<svg viewBox="0 0 512 512" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M256,0C114.837,0,0,114.843,0,256s114.837,256,256,256s256-114.843,256-256S397.163,0,256,0z M381.804,281.636
+															l-114,114.011c-3.131,3.131-7.381,4.892-11.804,4.892c-4.423,0-8.674-1.761-11.804-4.892l-114-114.017
+															c-15.772-15.755-24.457-36.723-24.457-59.021s8.685-43.266,24.457-59.027c15.75-15.761,36.706-24.451,59.021-24.451
+															c22.315,0,43.272,8.691,59.032,24.462l7.75,7.745l7.761-7.756c15.75-15.761,36.706-24.451,59.021-24.451
+															s43.272,8.691,59.032,24.462c15.761,15.75,24.446,36.717,24.446,59.016S397.576,265.875,381.804,281.636z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+								</div>
+							</a>
+						</div>
+					</div><!-- Product-item -->
+					<div class="product-item">
+						<div class="img-container">
+							<a href="Product-view.html">
+								<div class="price">
+									<span class="cur-price"><b>Ref</b>M2</span>
+								</div>
+								<img src="CSS/Images/Products/photo-3.jpg" alt="" class="main-img">
+								<div class="item-btns-container">
+									<a href="Product-view.html">
+										<span class="info-btn">
+											<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M437.02,74.98C388.667,26.629,324.38,0,256,0S123.333,26.629,74.98,74.98C26.629,123.333,0,187.62,0,256
+															s26.629,132.667,74.98,181.02C123.333,485.371,187.62,512,256,512s132.667-26.629,181.02-74.98
+															C485.371,388.667,512,324.38,512,256S485.371,123.333,437.02,74.98z M256,70c30.327,0,55,24.673,55,55c0,30.327-24.673,55-55,55
+															c-30.327,0-55-24.673-55-55C201,94.673,225.673,70,256,70z M326,420H186v-30h30V240h-30v-30h110v180h30V420z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+									<a href="#">
+										<span class="svg">
+											<svg viewBox="0 0 512 512" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M256,0C114.837,0,0,114.843,0,256s114.837,256,256,256s256-114.843,256-256S397.163,0,256,0z M381.804,281.636
+															l-114,114.011c-3.131,3.131-7.381,4.892-11.804,4.892c-4.423,0-8.674-1.761-11.804-4.892l-114-114.017
+															c-15.772-15.755-24.457-36.723-24.457-59.021s8.685-43.266,24.457-59.027c15.75-15.761,36.706-24.451,59.021-24.451
+															c22.315,0,43.272,8.691,59.032,24.462l7.75,7.745l7.761-7.756c15.75-15.761,36.706-24.451,59.021-24.451
+															s43.272,8.691,59.032,24.462c15.761,15.75,24.446,36.717,24.446,59.016S397.576,265.875,381.804,281.636z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+								</div>
+							</a>
+						</div>
+					</div><!-- Product-item -->
+					<div class="product-item">
+						<div class="img-container">
+							<a href="Product-view.html">
+								<div class="price">
+									<span class="cur-price"><b>Ref</b>W2</span>
+								</div>
+								<img src="CSS/Images/Products/1.jpg" alt="orange casual tee" class="main-img">
+								<div class="item-btns-container">
+									<a href="Product-view.html">
+										<span class="info-btn">
+											<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M437.02,74.98C388.667,26.629,324.38,0,256,0S123.333,26.629,74.98,74.98C26.629,123.333,0,187.62,0,256
+															s26.629,132.667,74.98,181.02C123.333,485.371,187.62,512,256,512s132.667-26.629,181.02-74.98
+															C485.371,388.667,512,324.38,512,256S485.371,123.333,437.02,74.98z M256,70c30.327,0,55,24.673,55,55c0,30.327-24.673,55-55,55
+															c-30.327,0-55-24.673-55-55C201,94.673,225.673,70,256,70z M326,420H186v-30h30V240h-30v-30h110v180h30V420z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+									<a href="#">
+										<span class="svg">
+											<svg viewBox="0 0 512 512" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M256,0C114.837,0,0,114.843,0,256s114.837,256,256,256s256-114.843,256-256S397.163,0,256,0z M381.804,281.636
+															l-114,114.011c-3.131,3.131-7.381,4.892-11.804,4.892c-4.423,0-8.674-1.761-11.804-4.892l-114-114.017
+															c-15.772-15.755-24.457-36.723-24.457-59.021s8.685-43.266,24.457-59.027c15.75-15.761,36.706-24.451,59.021-24.451
+															c22.315,0,43.272,8.691,59.032,24.462l7.75,7.745l7.761-7.756c15.75-15.761,36.706-24.451,59.021-24.451
+															s43.272,8.691,59.032,24.462c15.761,15.75,24.446,36.717,24.446,59.016S397.576,265.875,381.804,281.636z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+								</div>
+							</a>
+						</div>
+					</div><!-- Product-item -->
+					<div class="product-item">
+						<div class="img-container">
+							<a href="Product-view.html">
+								<div class="price">
+									<span class="cur-price"><b>Ref</b>M3</span>
+								</div>
+								<img src="CSS/Images/Products/photo-4.jpg" alt="" class="main-img">
+								<div class="item-btns-container">
+									<a href="Product-view.html">
+										<span class="info-btn">
+											<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M437.02,74.98C388.667,26.629,324.38,0,256,0S123.333,26.629,74.98,74.98C26.629,123.333,0,187.62,0,256
+															s26.629,132.667,74.98,181.02C123.333,485.371,187.62,512,256,512s132.667-26.629,181.02-74.98
+															C485.371,388.667,512,324.38,512,256S485.371,123.333,437.02,74.98z M256,70c30.327,0,55,24.673,55,55c0,30.327-24.673,55-55,55
+															c-30.327,0-55-24.673-55-55C201,94.673,225.673,70,256,70z M326,420H186v-30h30V240h-30v-30h110v180h30V420z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+									<a href="#">
+										<span class="svg">
+											<svg viewBox="0 0 512 512" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M256,0C114.837,0,0,114.843,0,256s114.837,256,256,256s256-114.843,256-256S397.163,0,256,0z M381.804,281.636
+															l-114,114.011c-3.131,3.131-7.381,4.892-11.804,4.892c-4.423,0-8.674-1.761-11.804-4.892l-114-114.017
+															c-15.772-15.755-24.457-36.723-24.457-59.021s8.685-43.266,24.457-59.027c15.75-15.761,36.706-24.451,59.021-24.451
+															c22.315,0,43.272,8.691,59.032,24.462l7.75,7.745l7.761-7.756c15.75-15.761,36.706-24.451,59.021-24.451
+															s43.272,8.691,59.032,24.462c15.761,15.75,24.446,36.717,24.446,59.016S397.576,265.875,381.804,281.636z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+								</div>
+							</a>
+						</div>
+					</div><!-- Product-item -->
+					<div class="product-item too-long">
+						<div class="lookbook-description">
+							<h3><b>Win</b> a new look!</h3> 
+							<b class="lookbook-subtitle">
+								add looks or items to your lookbook for a chance of winning
+							</b>
+							<p>
+								See an item or a complete look you like, click the <img src="CSS/Images/heart.png" alt="like" width="14px" height="14px"> button to add it to your
+								lookbook and you’ll be automatically entered to our monthly draw where
+								one winner gets a <b>£300</b> gift voucher to spend on our website! 
+							</p>
+							<p>
+								Terms: No purchase necessary. Vouchers are non-transferable and no
+								cash alternative is ofered. Competition is for members only.
+							</p>
+							<a href="#" class="lookbook-link">
+								<span>Shop now</span>
+							</a>
+							<div class="marketing-banner">
+								<span class="marketing-title">Win</span>
+								<span class="marketing-subtitle">A new look</span>
+							</div>
+						</div>
+						<div class="img-container">
+							<img src="" alt="" class="main-img">
+						</div>
+					</div>
+					<div class="product-item">
+						<div class="img-container">
+							<a href="Product-view.html">
+								<div class="price">
+									<span class="cur-price"><b>Ref</b>W2</span>
+								</div>
+								<img src="CSS/Images/Products/1.jpg" alt="orange casual tee" class="main-img">
+								<div class="item-btns-container">
+									<a href="Product-view.html">
+										<span class="info-btn">
+											<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M437.02,74.98C388.667,26.629,324.38,0,256,0S123.333,26.629,74.98,74.98C26.629,123.333,0,187.62,0,256
+															s26.629,132.667,74.98,181.02C123.333,485.371,187.62,512,256,512s132.667-26.629,181.02-74.98
+															C485.371,388.667,512,324.38,512,256S485.371,123.333,437.02,74.98z M256,70c30.327,0,55,24.673,55,55c0,30.327-24.673,55-55,55
+															c-30.327,0-55-24.673-55-55C201,94.673,225.673,70,256,70z M326,420H186v-30h30V240h-30v-30h110v180h30V420z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+									<a href="#">
+										<span class="svg">
+											<svg viewBox="0 0 512 512" xml:space="preserve">
+												<g>
+													<g>
+														<path d="M256,0C114.837,0,0,114.843,0,256s114.837,256,256,256s256-114.843,256-256S397.163,0,256,0z M381.804,281.636
+															l-114,114.011c-3.131,3.131-7.381,4.892-11.804,4.892c-4.423,0-8.674-1.761-11.804-4.892l-114-114.017
+															c-15.772-15.755-24.457-36.723-24.457-59.021s8.685-43.266,24.457-59.027c15.75-15.761,36.706-24.451,59.021-24.451
+															c22.315,0,43.272,8.691,59.032,24.462l7.75,7.745l7.761-7.756c15.75-15.761,36.706-24.451,59.021-24.451
+															s43.272,8.691,59.032,24.462c15.761,15.75,24.446,36.717,24.446,59.016S397.576,265.875,381.804,281.636z"/>
+													</g>
+												</g>
+											</svg>
+										</span>
+									</a>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div><!-- Product list -->
+			</div>
+		</section>
+		<section class="lookbook">
+			<h2 class="visually-hidden">Lookbook</h2>
+			<div class="lookbook-list">
+				<article class="lookbook-item">
+					<h3>
+						<b>men’s</b><br>
+						lookbook
+					</h3>
+					<p>
+						Lorem ipsum dolor sit amet eras facilisis <br>
+						consectetur adipiscing elit lor, integer lorem <br>
+						consecteur dignissim laciniqui. <br>
+						Elementum metus facilisis ut phasellu.
+					</p>
+					<a href="#" class="lookbook-link"><span>View now</span></a>
+					<img src="CSS/Images/mens/Men's.png" alt="Men's lookbook" class="lookbook-img">
+				</article>
+				<article class="lookbook-item">
+					<h3>
+						<b>women’s</b><br>
+						lookbook
+					</h3>
+					<p>
+						Pellentesque habitant morbi tristique senec-<br>
+						tus et netus et malesuada fames .<br>
+						Pellentesque laoreet quis enim et mattis.<br>
+						Quisque interdum felis tellus.
+					</p>
+					<a href="#" class="lookbook-link"><span>View now</span></a>
+					<img src="CSS/Images/mens/Women's.png" alt="Men's lookbook" class="lookbook-img">
+				</article>
+				<article class="lookbook-item">
+					<h3>
+						<b>your</b><br>
+						lookbook
+					</h3>
+					<p>
+						See an item you like and click the button<br>
+						to add it to your lookbook where you can<br>
+						create your own perfect look.<br>
+						It’s like your own boutique!
+					</p>
+					<a href="#" class="lookbook-link"><span>View now</span></a>
+					<img src="CSS/Images/mens/Your.png" alt="Men's lookbook" class="lookbook-img">
+				</article>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer-container">
+			<section class="footer-information">
+				<h2 class="visually-hidden">Information list</h2>
+				<div class="information-column">
+					<h3>Information</h3>
+					<ul class="information-list list">
+						<li><a href="The_Brand.html">The brand</a></li>
+						<li><a href="Local_Stores.html">Local stores</a></li>
+						<li><a href="">Customer service</a></li>
+						<li><a href="">Privacy & cookies</a></li>
+						<li><a href="">Site map</a></li>
+					</ul>
+				</div>
+				<div class="information-column">
+					<h3>Why buy from us</h3>
+					<ul class="information-list list">
+						<li><a href="">Shipping & returns</a></li>
+						<li><a href="">Secure shopping</a></li>
+						<li><a href="">Testimonials</a></li>
+						<li><a href="The_Brand.html">Award winning</a></li>
+						<li><a href="The_Brand.html">Ethical trading</a></li>
+					</ul>
+				</div>
+				<div class="information-column">
+					<h3>Your account</h3>
+					<ul class="information-list list">
+						<li><a href="Sign_Up.html">Sign in</a></li>
+						<li><a href="">Register</a></li>
+						<li><a href="">View cart</a></li>
+						<li><a href="">View your lookbook</a></li>
+						<li><a href="">Track an order</a></li>
+						<li><a href="">Update information</a></li>
+					</ul>
+				</div>
+				<div class="information-column">
+					<h3>Lookbook</h3>
+					<ul class="information-list list">
+						<li><a href="">Latest posts</a></li>
+						<li><a href="">Men’s lookbook</a></li>
+						<li><a href="">Women’s lookbook</a></li>
+						<li><a href="">Lookbooks RSS feed</a></li>
+						<li><a href="">View your lookbook</a></li>
+						<li><a href="">Delete your lookbook</a></li>
+					</ul>
+				</div>
+				<div class="information-column">
+					<h3>contact details</h3>
+					<ul class="information-list list">
+						<li><a href="">Head Office: Avenue Fashion,<br>80-182 Regent Street, London.</a></li>
+						<li><a href="">Telephone: 0123-456-789 </a></li>
+						<li><a href="">Email:<br>support@yourwebsite.com </a></li>
+					</ul>
+				</div>
+			</section>
+			<div class="footer-about-us">
+				<section class="achivment">
+					<h2 class="visually-hidden">Our achivment</h2>
+					<p><b>award winner</b><br>fashion awards 2016</p>
+				</section>
+				<section class="social">
+					<h2 class="visually-hidden">Social links</h2>
+					<ul class="social-list list">
+						<li>
+							<a href="">
+								<span class="visually-hidden">Facebook</span>
+								<span class="svg">
+								<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+									 viewBox="0 0 155.139 155.139" style="enable-background:new 0 0 155.139 155.139;" xml:space="preserve">
+								<g>
+									<path id="f_1_" d="M89.584,155.139V84.378h23.742l3.562-27.585H89.584V39.184
+										c0-7.984,2.208-13.425,13.67-13.425l14.595-0.006V1.08C115.325,0.752,106.661,0,96.577,0C75.52,0,61.104,12.853,61.104,36.452
+										v20.341H37.29v27.585h23.814v70.761H89.584z"/>
+								</g>
+								</svg>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="visually-hidden">Twitter</span>
+								<span class="svg">
+									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+									<g>
+										<g>
+											<path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+												c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+												c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+												c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+												c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+												c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+												C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+												C480.224,136.96,497.728,118.496,512,97.248z"/>
+										</g>
+									</g>
+									</svg>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="visually-hidden">Instagram</span>
+								<span class="svg">
+									<svg height="511pt" viewBox="0 0 511 511.9" width="511pt" xmlns="http://www.w3.org/2000/svg">
+										<path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"/>
+										<path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0"/>
+										<path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"/>
+									</svg>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="visually-hidden">Pinterest</span>
+								<span class="svg">
+									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 width="438.529px" height="438.529px" viewBox="0 0 438.529 438.529" style="enable-background:new 0 0 438.529 438.529;"
+										 xml:space="preserve">
+									<g>
+										<path d="M409.141,109.203c-19.608-33.592-46.205-60.189-79.798-79.796C295.751,9.801,259.065,0,219.281,0
+											C179.5,0,142.812,9.801,109.22,29.407c-33.597,19.604-60.194,46.201-79.8,79.796C9.809,142.8,0.008,179.485,0.008,219.267
+											c0,44.35,12.085,84.611,36.258,120.767c24.172,36.172,55.863,62.912,95.073,80.232c-0.762-20.365,0.476-37.209,3.709-50.532
+											l28.267-119.348c-4.76-9.329-7.139-20.93-7.139-34.831c0-16.175,4.089-29.689,12.275-40.541
+											c8.186-10.85,18.177-16.274,29.979-16.274c9.514,0,16.841,3.14,21.982,9.42c5.142,6.283,7.705,14.181,7.705,23.7
+											c0,5.896-1.099,13.084-3.289,21.554c-2.188,8.471-5.041,18.273-8.562,29.409c-3.521,11.132-6.045,20.036-7.566,26.692
+											c-2.663,11.608-0.476,21.553,6.567,29.838c7.042,8.278,16.372,12.423,27.983,12.423c20.365,0,37.065-11.324,50.107-33.972
+											c13.038-22.655,19.554-50.159,19.554-82.514c0-24.938-8.042-45.21-24.129-60.813c-16.085-15.609-38.496-23.417-67.239-23.417
+											c-32.161,0-58.192,10.327-78.082,30.978c-19.891,20.654-29.836,45.352-29.836,74.091c0,17.132,4.854,31.505,14.56,43.112
+											c3.235,3.806,4.283,7.898,3.14,12.279c-0.381,1.143-1.141,3.997-2.284,8.562c-1.138,4.565-1.903,7.522-2.281,8.851
+											c-1.521,6.091-5.14,7.994-10.85,5.708c-14.654-6.085-25.791-16.652-33.402-31.689c-7.614-15.037-11.422-32.456-11.422-52.246
+											c0-12.753,2.047-25.505,6.14-38.256c4.089-12.756,10.468-25.078,19.126-36.975c8.663-11.9,19.036-22.417,31.123-31.549
+											c12.082-9.135,26.787-16.462,44.108-21.982s35.972-8.28,55.959-8.28c27.032,0,51.295,5.995,72.8,17.986
+											c21.512,11.992,37.925,27.502,49.252,46.537c11.327,19.036,16.987,39.403,16.987,61.101c0,28.549-4.948,54.243-14.842,77.086
+											c-9.896,22.839-23.887,40.778-41.973,53.813c-18.083,13.042-38.637,19.561-61.675,19.561c-11.607,0-22.456-2.714-32.548-8.135
+											c-10.085-5.427-17.034-11.847-20.839-19.273c-8.566,33.685-13.706,53.77-15.42,60.24c-3.616,13.508-11.038,29.119-22.27,46.819
+											c20.367,6.091,41.112,9.13,62.24,9.13c39.781,0,76.47-9.801,110.062-29.41c33.595-19.602,60.192-46.199,79.794-79.791
+											c19.606-33.599,29.407-70.287,29.407-110.065C438.527,179.485,428.74,142.795,409.141,109.203z"/>
+									</g>
+									</svg>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+		<section class="copyright">
+			<div class="footer-container">
+				<h2 class="visually-hidden">Copyright</h2>
+				<span>© 2016 Avenue Fashion™</span>
+				<div class="copyright-right">
+					<span>Design by RobbyDesigns.com</span>
+					<span>Dev by Loremipsum.com</span>
+				</div>
+			</div>
+		</section>
+	</footer>
+	<script src="JS/Header.js"></script>
+</body>
+</html>
