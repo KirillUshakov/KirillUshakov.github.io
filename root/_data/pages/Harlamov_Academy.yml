@@ -1,0 +1,29 @@
+- name: Главная
+  link: https://kharlamov-academy.ru
+
+- name: Об академии
+  link: https://kharlamov-academy.ru/ob-akademii/
+
+- name: Рассписание
+  link: https://kharlamov-academy.ru/category/raspisanie/
+
+- name: Тренеры
+  link: https://kharlamov-academy.ru/category/treners/
+
+- name: Стоимость
+  link: https://kharlamov-academy.ru/stoimost-obucheniya/
+  
+- name: Документы
+  link: https://kharlamov-academy.ru/category/documents/
+  
+- name: Контакты
+  link: https://kharlamov-academy.ru/contacts/
+  
+- name: Новости
+  link: https://kharlamov-academy.ru/category/news/
+
+- name: Медиа
+  link: https://kharlamov-academy.ru/category/media/
+
+- name: Команда
+  link: https://kharlamov-academy.ru/category/command/

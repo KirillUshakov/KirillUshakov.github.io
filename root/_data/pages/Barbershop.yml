@@ -1,0 +1,11 @@
+- name: Главная
+  link: barbershop-index.html
+
+- name: Магазин
+  link: barbershop-shop.html
+
+- name: Прайс-лист
+  link: barbershop-price.html
+
+- name: Страница товара
+  link: barbershop-item.html

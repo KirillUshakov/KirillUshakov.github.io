@@ -1,0 +1,17 @@
+- name: Home
+  link: Home.html
+
+- name: LocalStories
+  link: Local_Stores.html
+
+- name: Lookbook
+  link: Lookbook.html
+
+- name: Product-view
+  link: Product-view.html
+
+- name: Sign_Up
+  link: Sign_Up.html
+
+- name: The_Brand
+  link: The_Brand.html

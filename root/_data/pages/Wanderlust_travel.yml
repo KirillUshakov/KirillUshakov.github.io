@@ -1,0 +1,29 @@
+- name: Главная
+  link: https://www.wanderlust-travel.ru/
+
+- name: О нас
+  link: https://www.wanderlust-travel.ru/about/
+
+- name: Страны
+  link: https://www.wanderlust-travel.ru/country/
+
+- name: Готовые туры
+  link: https://www.wanderlust-travel.ru/tours/
+  
+- name: Образование за рубежом
+  link: https://www.wanderlust-travel.ru/study/
+  
+- name: Лечение за рубежом
+  link: https://www.wanderlust-travel.ru/treatment-abroad/
+
+- name: Корпоративные туры
+  link: https://www.wanderlust-travel.ru/corporate-tours/
+
+- name: Велнес туры
+  link: https://www.wanderlust-travel.ru/velness-tury/
+  
+- name: Новости
+  link: https://www.wanderlust-travel.ru/news/
+  
+- name: Контакты
+  link: https://www.wanderlust-travel.ru/about/#contacts
