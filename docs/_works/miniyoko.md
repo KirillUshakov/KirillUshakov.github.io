@@ -1,6 +1,6 @@
 ---
 title: Miniyoko
-src: http://miniyoko.demark-studio.ru/
+src: https://miniyoko.demark-studio.ru/
 
 name: Интернет магазин Miniyoko
 desc: Сделан дизайн, сверстан адаптивно и посажен на хостинг (в разработке).
