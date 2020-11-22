@@ -299,12 +299,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
 		console.log(work_page_title);
 		ChangeHeightToHeightOfViewport(work_frame);
-		ChangeHeightToHeightOfViewport(work_links_container);
+
+		if(!document.querySelector('.work_frame.on_host')){
+			ChangeHeightToHeightOfViewport(work_links_container);
+		}
 
 		window.addEventListener(`resize`, event => {
 			console.log('hehe');
 			ChangeHeightToHeightOfViewport(work_frame);
-			ChangeHeightToHeightOfViewport(work_links_container);
+
+			if(!document.querySelector('.work_frame.on_host')){
+				ChangeHeightToHeightOfViewport(work_links_container);
+			}
+			
 		}, false);
 
 		
