@@ -298,14 +298,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 		ChangeHeightToHeightOfViewport(work_frame);
 
-		if(!document.querySelector('.work_frame.on_host')){
+		if(document.querySelector('.work_frame.on_host')){
 			ChangeHeightToHeightOfViewport(work_links_container);
 		}
 
 		window.addEventListener(`resize`, event => {
 			ChangeHeightToHeightOfViewport(work_frame);
 
-			if(!document.querySelector('.work_frame.on_host')){
+			if(document.querySelector('.work_frame.on_host')){
 				ChangeHeightToHeightOfViewport(work_links_container);
 			}
 			
