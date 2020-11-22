@@ -288,7 +288,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	/* Work Page*/
 	if(document.querySelector('.work-page')){
-		console.log('gdfgfgdfgfgg');
 
 		var work_frame = document.querySelector('.work_frame');
 			work_pages = document.querySelectorAll('.work-page-links ol a')
@@ -297,7 +296,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 		work_page_title.textContent = work_page_title.textContent.replace('_',' ');
 
-		console.log(work_page_title);
 		ChangeHeightToHeightOfViewport(work_frame);
 
 		if(!document.querySelector('.work_frame.on_host')){
@@ -305,7 +303,6 @@ document.addEventListener("DOMContentLoaded", function() {
 		}
 
 		window.addEventListener(`resize`, event => {
-			console.log('hehe');
 			ChangeHeightToHeightOfViewport(work_frame);
 
 			if(!document.querySelector('.work_frame.on_host')){
