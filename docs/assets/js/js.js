@@ -346,7 +346,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		var ViewPortHeight = window.innerHeight;
 			HeaderH = document.querySelector('header').offsetHeight;
 
-		ViewPortHeight-= HeaderH
+		ViewPortHeight-= HeaderH;
 		block.style.height = ViewPortHeight + "px";
 	}
 });
