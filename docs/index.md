@@ -38,7 +38,7 @@ title: Главная
 <section class="section about" id="About">
     <div class="about-column about-column-autor">
         <div class="autor-img">
-            <img src="/assets/images/src/Portfolio/Sport.jpg" alt="Kirill Ushakov">
+            <img src="/assets/images/src/About/Avatar.jpg" alt="Kirill Ushakov">
         </div>
     </div>
     <div class="about-column about-column-desc">
