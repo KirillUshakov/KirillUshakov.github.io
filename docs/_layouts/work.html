@@ -12,18 +12,18 @@
 <body class="work-page">
     <header>
         <nav class="main-nav">
-            {% if site.data.pages.[page.title] %}
+            {% if site.data.pages[page.title] %}
                 <div class="burger-container">
                     <span>Страницы проекта</span>
                     <button class="btn burger-menu burger-menu-work" title="Menu"><span></span></button>
                 </div>
             {% endif %}
             <h1>{{page.title}}</h1>
-            {% if site.data.pages.[page.title] %}
+            {% if site.data.pages[page.title] %}
                 <div class="work-links-container" id="work-links-container">
                     <div class="work-page-links">
                         <ol>
-                            {% for page in site.data.pages.[page.title] %}
+                            {% for page in site.data.pages[page.title] %}
                                 <li><a href="{{page.link}}">{{page.name}}</a></li>
                             {% endfor %}
                         </ol>

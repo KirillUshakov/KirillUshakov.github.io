@@ -1,4 +1,4 @@
-I"�7<section class="title" style="background-image: url(/assets/images/src/Title/Background.jpg);" id="TitleBlock">
+I"�7<section class="title" style="background-image: url(/assets/images/src/Title/Background.jpg);" id="TitleBlock">
     <div class="title-container">
         <div class="title-desc">
             <p>Привет, меня зовут</p>
@@ -111,7 +111,7 @@
 <section class="section about" id="About">
     <div class="about-column about-column-autor">
         <div class="autor-img">
-            <img src="/assets/images/src/Portfolio/Sport.jpg" alt="Kirill Ushakov" />
+            <img src="/assets/images/src/About/Avatar.jpg" alt="Kirill Ushakov" />
         </div>
     </div>
     <div class="about-column about-column-desc">
@@ -144,7 +144,7 @@
 </section>
 <section class="section order" id="Order">
     <div class="order-container">
-        <h2>Заказать работу</h2>
+        <h2>Связаться со мной</h2>
         <form action="#" method="POST" class="order-form" id="order-form">
             <div class="order-inputs">
                 <div class="form-error">
@@ -152,7 +152,7 @@
                 </div>
                 <input type="text" name="user-name" placeholder="Имя" required="" />
                 <input type="email" name="user-email" placeholder="Email" id="UserEmail" required="" />
-                <textarea name="user-comment" placeholder="Описание" required=""></textarea>
+                <textarea name="user-comment" placeholder="Описание работы" required=""></textarea>
             </div>
             <button type="submit" class="btn order-btn">Отправить</button>
         </form>

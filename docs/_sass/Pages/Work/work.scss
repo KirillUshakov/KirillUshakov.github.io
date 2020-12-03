@@ -174,7 +174,7 @@
         overflow: hidden;
     }
 
-    ol{
+    &>ol{
         counter-reset: myCounter;
 
         width: 100%;
@@ -192,6 +192,7 @@
 
         margin: 0;
         padding: 0;
+        padding-top: 40px;
 
         overflow: scroll;
         overflow-x: hidden;

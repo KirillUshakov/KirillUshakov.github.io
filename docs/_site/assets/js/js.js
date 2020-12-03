@@ -93,21 +93,35 @@ document.addEventListener("DOMContentLoaded", function() {
 		});
 	}
 
-	/*OrderForm and error*/
+	/*OrderForm and error
 	var 	OrderForm = document.getElementById('order-form');
-			FormSuccess = document.querySelector('#order-form .form-error')
-			inputs = document.querySelectorAll('.order-inputs input');
-			OrderDesc = document.querySelector('.order-inputs textarea');
-			UserEmail = document.getElementById('UserEmail');
-
+			
 	if(OrderForm){
+		FormSuccess = document.querySelector('#order-form .form-error')
+		inputs = document.querySelectorAll('.order-inputs input');
+		OrderDesc = document.querySelector('.order-inputs textarea');
+		UserEmail = OrderForm.querySelector('input[name="user-email"]');
+
 		OrderForm.addEventListener('submit',function(evt){
 			evt.preventDefault();
 
 			var IsFormSuccess = IsValidEmail(UserEmail.value);
 
 			if(IsFormSuccess){
+				var Request = '';
+					UserName = OrderForm.querySelector('[name="user-name"]');
+					UserComment = OrderForm.querySelector('[name="user-comment"]');
+
+				UserName = UserName.value;
+				UserComment = UserComment.value;
+				UserEmail = UserEmail.value;
+				
+				Request = 'http://email.demark-studio.ru/?email='+ UserEmail +'&name='+ UserName +'&msg='+ UserComment;
+				
+				OrderForm.setAttribute('action', Request);
 				FormSuccess.classList.add('active');
+				OrderForm.submit();
+				
 			} else {
 				FormSuccess.innerHTML = "Ошибка Email не существует";
 				FormSuccess.classList.add('active','error');
@@ -138,7 +152,6 @@ document.addEventListener("DOMContentLoaded", function() {
 						break;
 					}
 					
-					console.log('Ошибка на', state);
 					state = -1;
 					break;
 				
@@ -162,7 +175,6 @@ document.addEventListener("DOMContentLoaded", function() {
 					}
 					
 					//Если не подошло ни под одно из условий
-					console.log('Ошибка на', state);
 					state = -1;
 					break;
 
@@ -176,7 +188,6 @@ document.addEventListener("DOMContentLoaded", function() {
 					}
 
 					//Если не подошло ни под одно из условий
-					console.log('Ошибка на', state);
 					state = -1;
 					break;
 				
@@ -189,7 +200,6 @@ document.addEventListener("DOMContentLoaded", function() {
 					}
 
 					//Если не подошло ни под одно из условий
-					console.log('Ошибка на', state);
 					state = -1;
 					break;
 
@@ -220,7 +230,6 @@ document.addEventListener("DOMContentLoaded", function() {
 					}
 
 					//Если не подошло ни под одно из условий
-					console.log('Ошибка на', state);
 					state = -1;
 					break;
 
@@ -236,7 +245,6 @@ document.addEventListener("DOMContentLoaded", function() {
 					}
 
 					//Если не подошло ни под одно из условий
-					console.log('Ошибка на', state);
 					state = -1;
 					break;
 				
@@ -270,7 +278,6 @@ document.addEventListener("DOMContentLoaded", function() {
 		index = UserEmail.length - 1;
 		while (index > 0) {
 			ch = UserEmail[index];
-			console.log(ch);
 			if (ch == '.' && UserEmail.length - index > 2) {
 				return true;
 			}
@@ -284,7 +291,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			return(true);
 		}
 	}
-
+	*/
 
 	/* Work Page*/
 	if(document.querySelector('.work-page')){
