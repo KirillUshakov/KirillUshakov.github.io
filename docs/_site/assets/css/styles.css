@@ -105,9 +105,7 @@ header {
   transition: .3s ease; }
   .main-logo:focus, .main-logo:hover {
     outline: 0;
-    color: #292929;
-    background-color: #eaeaea;
-    border-color: #eaeaea; }
+    color: #E78835; }
 
 .site-nav {
   display: flex;
