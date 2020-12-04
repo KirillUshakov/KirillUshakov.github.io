@@ -371,7 +371,7 @@ h1,h2,h3,h4,h5,h6{
 
 .img_item{
     width: 30%;
-    background: #5267A0;
+    background-color: #95e1d3;
 }
 
 .img_item:hover .about_img{
@@ -389,7 +389,7 @@ h1,h2,h3,h4,h5,h6{
 
 .about_img{
     position:relative;
-    background: linear-gradient(to bottom, #B8E7EA , #02559A);
+    background: linear-gradient(to bottom, #f38181 , #fce38a);
     transition: transform 0.2s linear;
  }
 

@@ -157,7 +157,7 @@
     color:$clr1;
     font-size: 17px;
 
-    background-color: rgba(51,51,51,0.98);
+    background-color: $clr2;
 
     transform: translateX(-100%);
     transition: transform .3s ease , opacity 1s ease;
@@ -196,7 +196,6 @@
 
         overflow: scroll;
         overflow-x: hidden;
-        background-color: rgba(133, 133, 133, 0.1);
         
         &::-webkit-scrollbar-track {
             height: 100px;

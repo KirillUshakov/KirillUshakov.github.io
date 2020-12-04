@@ -50,7 +50,7 @@ title: Главная
                 <p><b>Основная специализация: </b>верстка сайтов, интернет-магазинов и Landing Page (фиксированная, резиновая, адаптивная) c посадкой на CMS. Работаю удаленно.</p>
                 <p>Ответственный, находчивый, исполнительный, в процессе обдумываю каждую деталь и создаю максимально чистый код для решения текущей задачи.</p>
             </div>
-            <a href="#" class="order-link" data_scroll="Order">Заказать работу</a>
+            <a href="portfolio.html" class="order-link">Портфолио</a>
         </div>
     </div>
 </section>
@@ -66,30 +66,6 @@ title: Главная
                     </div>
                 {% endif %}
             {% endfor %}
-        </div>
-    </div>
-</section>
-<section class="section contact" id="Contact">
-    <div class="contact-container">
-        <h2>Контакты</h2>
-        <div class="contact-content">
-            <div class="contact-item">
-                <p class="contact-title">E-mail</p>
-                <p>k.ushakov@ankama.ru</p>
-            </div>
-            <div class="contact-item">
-                <ul class="list social-list">
-                    {% for item in site.data.social %}
-                        <li>
-                            <a href="{{item.link}}"  target="_blank" title="{{item.name}}">
-                                <span class="svg">
-                                    {{item.svg}}
-                                </span>
-                            </a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
         </div>
     </div>
 </section>
