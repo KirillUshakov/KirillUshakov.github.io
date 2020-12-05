@@ -305,18 +305,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
 		ChangeHeightToHeightOfViewport(work_frame);
 
-		if(document.querySelector('.work_frame.on_host')){
+
+		if(document.querySelector('.work-links-container')){
 			ChangeHeightToHeightOfViewport(work_links_container);
+			console.log('resize');
+			
 		}
 
 		window.addEventListener(`resize`, event => {
+
 			ChangeHeightToHeightOfViewport(work_frame);
 
-			if(document.querySelector('.work_frame.on_host')){
+			if(document.querySelector('.work-links-container')){
 				ChangeHeightToHeightOfViewport(work_links_container);
 			}
 			
-		}, false);
+		},false);
 
 		
 		for (let i = 0; i < work_pages.length; i++) {
@@ -350,6 +354,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		var ViewPortHeight = window.innerHeight;
 			HeaderH = document.querySelector('header').offsetHeight;
 
+			
 		ViewPortHeight-= HeaderH;
 		block.style.height = ViewPortHeight + "px";
 	}

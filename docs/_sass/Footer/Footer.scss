@@ -19,6 +19,13 @@ footer{
 	width: 100%;
 
 	padding: 15px 20px;
+
+	.social-list{
+		a{
+			width: auto;
+			height: auto;
+		}
+	}
 }
 
 .footer-nav-list{
@@ -109,11 +116,6 @@ footer{
 		padding: 10px 20px;
 
 		.social-list{
-			a{
-				width: auto;
-				height: auto;
-			}
-
 			li{
 				margin-right: 10px;
 			}

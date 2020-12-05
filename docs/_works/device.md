@@ -6,4 +6,5 @@ host: false
 name: Сайт интернет-магазина Device
 desc: Верстка интернет-магазина техники
 img_url: /assets/images/src/Portfolio/Device.jpg
+adapted: false
 ---

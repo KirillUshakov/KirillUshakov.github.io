@@ -186,13 +186,12 @@
         align-items: flex-start;
 
         list-style: none;
-        font-size: 19px;
+        font-size: 16px;
         font-family: $roboto;
         color:$clr1;
 
         margin: 0;
         padding: 0;
-        padding-top: 40px;
 
         overflow: scroll;
         overflow-x: hidden;
@@ -254,7 +253,7 @@
                 outline: 0;
 
                 &::before{
-                    font-size: 19px;
+                    font-size: 17px;
                 }
 
                 &::after{

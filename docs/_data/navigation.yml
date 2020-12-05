@@ -14,5 +14,5 @@
   data_scroll: Reviews
 
 - name: Контакты
-  link: /#Order
-  data_scroll: Order
+  link: /#Contact
+  data_scroll: Contact
