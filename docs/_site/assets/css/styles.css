@@ -709,6 +709,15 @@ footer {
   .copyright p {
     margin: 0; }
 
+@media (max-width: 920px) {
+  .footer-item-list {
+    flex-direction: column;
+    align-items: center; }
+
+  .footer-nav-item {
+    margin-bottom: 10px; }
+    .footer-nav-item:last-child {
+      margin-bottom: 0; } }
 .portfolio-main {
   padding-top: 80px;
   padding-bottom: 0; }
