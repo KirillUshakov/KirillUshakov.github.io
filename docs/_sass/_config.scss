@@ -48,6 +48,12 @@ $clr3:#E78835;
 		background-color: $clr;
 		color:$bg;
 	}
+
+	@media(max-width:576px){
+		padding: 7px 22px;
+		min-height: 0;
+		font-size: 16px;
+	}
 }
 
 @include font('Roboto', normal, 400, '/fonts/roboto-regular-webfont.woff2');

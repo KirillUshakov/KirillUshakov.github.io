@@ -17,3 +17,4 @@ defaults:
       layout: "work"
       host: true
       show: true
+      adapted: false

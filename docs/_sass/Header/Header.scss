@@ -124,21 +124,21 @@ header{
 		&:focus{
 			outline: 0;
 		}
-
-		svg{
-			width: 20px;
-			height: 20px;
-		}
-
-		path{
-			fill:$clr1;
-			transition: fill .3s ease;
-		}
 		
 		&:focus path,
 		&:hover path{
 			fill:$clr3;
 		}
+	}
+
+	svg{
+		width: 20px;
+		height: 20px;
+	}
+
+	path{
+		fill:$clr1;
+		transition: fill .3s ease;
 	}
 }
 
@@ -209,6 +209,10 @@ header{
 
 	&.active{
 		display: block;
+
+		.main-nav-mobile{
+			animation: main_nav_mobile ease .3s;
+		}
 	}
 }
 
@@ -222,11 +226,12 @@ header{
 	align-items: flex-start;
 
 	width: 100%;
-	max-width:250px;
+	max-width:230px;
 	min-height: 100vh;
 
 	color:$clr2;
 	background-color: rgba(0,0,0,.6);
+
 
 	.site-nav{
 		width: 100%;
@@ -235,7 +240,7 @@ header{
 		flex-direction: column;
 		align-items: flex-start;
 
-		font-size: 18px;
+		font-size: 16px;
 
 		margin-bottom: 30px;
 
@@ -315,6 +320,11 @@ header{
 	}
 }
 
+@keyframes main_nav_mobile{
+	0%{transform: translateX(100%);}
+	100%{transform: translateX(0);}
+}
+
 @media(max-width: 992px){
 	.burger-menu{
 		display: flex;
@@ -330,7 +340,8 @@ header{
 
 @media(max-width: 576px){
 	header{
-		min-height: 60px;
+		min-height: 40px;
+		padding: 2px 0;
 	}
 
 	.main-logo{
@@ -341,6 +352,6 @@ header{
 	}
 	
 	.close-nav-btn{
-		margin-top: 10px;
+		margin-top: 0px;
 	}
 }

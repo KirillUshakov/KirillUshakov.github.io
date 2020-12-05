@@ -72,3 +72,30 @@
 		}
 	}
 }
+
+@media(max-width: 576px){
+	.section.reviews{
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		h2{
+			margin-bottom: 25px;
+		}
+	}
+
+	.reviews-item{
+		padding: 5px 10px;
+		margin-bottom: 20px;
+
+		font-size: 13px;
+
+		p{
+			margin-bottom: 5px;
+		}
+	}
+
+	.reviews-title{
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+}
