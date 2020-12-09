@@ -248,17 +248,14 @@
             text-decoration: none;
             color:inherit;
 
+            border-bottom: 1px solid transparent;
             z-index: 1;
+
             &:focus,&:hover{
                 outline: 0;
 
-                &::before{
-                    font-size: 17px;
-                }
-
-                &::after{
-                    opacity: 1;
-                }
+                background-color: $clr2;
+                border-color: $clr3;
             }
 
             &::before{
@@ -273,24 +270,6 @@
                 font-size: 15px;
                 margin-right: 15px;
                 transition: font-size .2s ease;
-            }
-
-            &::after{
-                content:'';
-                display: block;
-                width: 100%;
-                height: 100%;
-
-                position: absolute;
-                left: 0;
-                top: 0; 
-                
-                border-bottom:1px solid $clr3;
-                background-color: rgba(51,51,51,1);
-                z-index: -1;
-
-                opacity: 0;
-                transition: opacity .2s ease;
             }
         }
     }

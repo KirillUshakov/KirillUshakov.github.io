@@ -306,7 +306,8 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  -webkit-background-size: cover; }
 
 .title-container {
   width: 100%;
@@ -339,6 +340,10 @@ header {
     text-transform: uppercase; }
 
 @media (max-width: 992px) {
+  .title {
+    background-position: center;
+    background-size: cover; }
+
   .title-container {
     padding-top: 0;
     min-height: 650px; } }
@@ -546,7 +551,8 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  -webkit-background-size: cover; }
 
 .about-column {
   width: 50%;
@@ -1091,13 +1097,12 @@ footer {
       padding: 12px 40px;
       text-decoration: none;
       color: inherit;
+      border-bottom: 1px solid transparent;
       z-index: 1; }
       .work-page-links > ol a:focus, .work-page-links > ol a:hover {
-        outline: 0; }
-        .work-page-links > ol a:focus::before, .work-page-links > ol a:hover::before {
-          font-size: 17px; }
-        .work-page-links > ol a:focus::after, .work-page-links > ol a:hover::after {
-          opacity: 1; }
+        outline: 0;
+        background-color: #292929;
+        border-color: #E78835; }
       .work-page-links > ol a::before {
         counter-increment: myCounter;
         content: "0" counter(myCounter);
@@ -1107,19 +1112,6 @@ footer {
         font-size: 15px;
         margin-right: 15px;
         transition: font-size .2s ease; }
-      .work-page-links > ol a::after {
-        content: '';
-        display: block;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        border-bottom: 1px solid #E78835;
-        background-color: #333333;
-        z-index: -1;
-        opacity: 0;
-        transition: opacity .2s ease; }
   .work-page-links .close-nav-btn {
     margin: 0; }
 
