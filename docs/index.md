@@ -37,7 +37,7 @@ title: Главная
                                     </div>
                                 </div> 
                             {% endif %}
-                            <img src="{{work.img_url}}" alt="Trivago">
+                            <img src="{{work.img_url}}" alt="{{work.name}}">
                         </div>
                         <div class="portfolio-desc">
                             <h3>{{work.name}}</h3>
