@@ -1,5 +1,6 @@
-$open_sans: Open_Sans;
-$roboto: Roboto, sans-serif; // Roboto Font Family
+$open_sans: 'Open Sans', sans-serif;
+$roboto: 'Roboto', sans-serif;
+// Roboto Font Family
 
 $d_font_size: 20px;
 
@@ -9,7 +10,7 @@ $clr3:#E78835;
 
 
 
-@mixin font($fname, $fstyle, $fweight, $furl) {
+/*@mixin font($fname, $fstyle, $fweight, $furl) {
 	@font-face {
 		font-family: $fname;
 		font-style: $fstyle;
@@ -17,7 +18,7 @@ $clr3:#E78835;
 		// font-display: swap; // Uncomment to initially display system fonts
 		src: local($fname), url($furl) format('woff2');
 	}
-}
+}*/
 
 @mixin default_btn($br,$bg,$clr){
 	display: inline-block;
@@ -56,7 +57,8 @@ $clr3:#E78835;
 	}
 }
 
-@include font('Roboto', normal, 400, '/fonts/roboto-regular-webfont.woff2');
+/*@include font('Roboto', normal, 400, '/fonts/roboto-regular-webfont.woff2');
 @include font('Roboto', normal, 700, '/fonts/roboto-bold-webfont.woff2');
 @include font('Open_Sans', normal, 400, '/fonts/OpenSans-Regular.woff2');
 @include font('Open_Sans', normal, 700, '/fonts/OpenSans-Bold.woff2');
+*/

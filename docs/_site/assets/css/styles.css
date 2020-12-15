@@ -1,27 +1,21 @@
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Roboto"), url("/fonts/roboto-regular-webfont.woff2") format("woff2"); }
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Roboto"), url("/fonts/roboto-bold-webfont.woff2") format("woff2"); }
-@font-face {
-  font-family: "Open_Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Open_Sans"), url("/fonts/OpenSans-Regular.woff2") format("woff2"); }
-@font-face {
-  font-family: "Open_Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Open_Sans"), url("/fonts/OpenSans-Bold.woff2") format("woff2"); }
+/*@mixin font($fname, $fstyle, $fweight, $furl) {
+	@font-face {
+		font-family: $fname;
+		font-style: $fstyle;
+		font-weight: $fweight;
+		// font-display: swap; // Uncomment to initially display system fonts
+		src: local($fname), url($furl) format('woff2');
+	}
+}*/
+/*@include font('Roboto', normal, 400, '/fonts/roboto-regular-webfont.woff2');
+@include font('Roboto', normal, 700, '/fonts/roboto-bold-webfont.woff2');
+@include font('Open_Sans', normal, 400, '/fonts/OpenSans-Regular.woff2');
+@include font('Open_Sans', normal, 700, '/fonts/OpenSans-Bold.woff2');
+*/
 body {
   margin: 0;
   padding: 0;
-  font-family: Open_Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   color: #292929;
   background-color: #eaeaea; }
@@ -55,7 +49,7 @@ body {
     margin: 0;
     margin-bottom: 40px;
     text-align: center;
-    font-family: Open_Sans;
+    font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     font-size: 28px;
     font-weight: bold;
@@ -117,7 +111,7 @@ header {
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   color: #eaeaea; }
   .site-nav li {
@@ -302,7 +296,7 @@ header {
   max-width: 100%;
   overflow: hidden;
   z-index: 1;
-  font-family: Open_Sans;
+  font-family: "Open Sans", sans-serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -441,7 +435,7 @@ header {
   position: relative;
   min-height: 100px;
   padding: 15px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #292929;
   border-top: 1px solid transparent;
   border-bottom: 1px solid #292929;
@@ -470,7 +464,7 @@ header {
   padding: 12px 30px;
   text-decoration: none;
   text-align: center;
-  font-family: Open_Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: bold;
   color: #292929;
@@ -545,7 +539,7 @@ header {
   max-width: 100%;
   padding: 0;
   min-height: 750px;
-  font-family: Open_Sans;
+  font-family: "Open Sans", sans-serif;
   color: #eaeaea;
   background-image: url(../images/src/About/Background.jpg);
   background-position: center;
@@ -622,7 +616,7 @@ header {
   padding: 12px 30px;
   text-decoration: none;
   text-align: center;
-  font-family: Open_Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: bold;
   color: #E78835;
@@ -719,7 +713,7 @@ header {
   max-width: 370px;
   padding: 10px;
   padding-right: 0;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #eaeaea;
   border-left: 1px solid #E78835; }
@@ -977,7 +971,7 @@ footer {
   padding: 12px 30px;
   text-decoration: none;
   text-align: center;
-  font-family: Open_Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: bold;
   color: #E78835;
@@ -1060,7 +1054,7 @@ footer {
     align-items: flex-start;
     list-style: none;
     font-size: 16px;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #eaeaea;
     margin: 0;
     padding: 0;
