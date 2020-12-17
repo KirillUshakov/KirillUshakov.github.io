@@ -1095,7 +1095,7 @@ footer {
       z-index: 1; }
       .work-page-links > ol a:focus, .work-page-links > ol a:hover {
         outline: 0;
-        background-color: #292929;
+        background-color: #333;
         border-color: #E78835; }
       .work-page-links > ol a::before {
         counter-increment: myCounter;
