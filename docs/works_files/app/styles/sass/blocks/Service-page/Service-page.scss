@@ -1,0 +1,128 @@
+.service-page{
+    margin-top: 35px;
+    margin-bottom: 85px;
+
+    .title{
+        text-align: left;
+        margin-bottom: 40px;
+    }
+}
+
+.service-page__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+}
+
+.service-page__item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    h2{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+
+        font-size: 12px;
+        font-family: $Arial;
+        color:$clr2;
+
+        border-bottom: 1px solid #989898;
+    }
+}
+
+.service-page__item-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .service-item{
+        width: 100%;
+        max-width: 260px;
+        margin: 0;
+        margin-right: 35px;
+        margin-bottom: 30px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        padding-top: 25px;
+
+        &:nth-child(3n){
+            margin-right: 0;
+        }
+
+        h3{
+            max-width: 160px;
+            padding: 0;
+            padding-left: 5px;
+
+            font-size: 12px;
+            font-family: $Arial;
+            color:#7e7e7e;
+            text-transform: none;
+
+            &::before{
+                display: none;
+            }
+        }
+    }
+
+    .service-item_bg{
+        position: static;
+        display: block;
+
+        width: auto;
+        max-width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px){
+    .service-page__item-list{
+        justify-content: space-around;
+
+        .service-item{
+
+            &:nth-child(n){
+                margin: 0 10px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .service-page{
+        margin-bottom: 10px;
+
+        .title{
+            text-align: center;
+        }
+    }
+
+    .service-page__item{
+        h2{
+            text-align: center;
+        }
+    }
+
+    .service-page__item-list{
+        justify-content: space-around;
+
+        .service-item{
+            padding-top: 15px;
+            max-width: 200px;
+            min-height: 200px;
+        }
+
+        .service-item__img-container{
+            height: 140px;
+        }
+    }
+}

@@ -1,0 +1,96 @@
+// USER VARIABLES SECTION
+
+$accent: orange ;// Accent Color
+$fontsize: 12px ;// Body Font Size
+$lineheight: 1.65 ;// Document Line Height
+$Montserrat:'Montserrat', sans-serif;// User Font Family
+$Arial:'Arial', sans-serif;// User Font Family
+$systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif ;// System Font Family
+$clr1: #fff;
+$clr2: #000;
+$clr3: #cf142b;
+
+// Bootstrap compatible gutter variable => $gutter
+$grid-gutter-width: 30px;
+$gutter: $grid-gutter-width;
+
+// IMPORT SECTION
+
+/*@mixin font($fname, $fstyle, $fweight, $furl)
+	@font-face
+		font-family: $fname
+		font-style: $fstyle
+		font-weight: $fweight
+		src: local($fname), url($furl) format('woff2')
+		// font-display: swap // Uncomment to initially display system fonts
+
+@include font('Roboto', normal, 400, '../fonts/roboto-regular-webfont.woff2')
+@include font('Roboto', italic, 400, '../fonts/roboto-italic-webfont.woff2')
+@include font('Roboto', normal, 700, '../fonts/roboto-bold-webfont.woff2')
+@include font('Roboto', italic, 700, '../fonts/roboto-bolditalic-webfont.woff2')
+*/
+// GENERAL DOCUMENT STYLES
+
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+
+input, textarea{
+	outline: none;
+	&:focus:required:invalid{
+		border-color: red;
+	}
+
+	&:required:valid{
+		border-color: green;
+	}
+}
+
+body{
+	margin: 0;
+	padding: 0;
+
+	font-family: $Montserrat;
+	font-size: $fontsize;
+	color: $clr2;
+
+	position: relative;
+	overflow-x: hidden;
+}
+
+.container{
+	width: 100%;
+	max-width: 890px;
+
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.title{
+	margin: 0;
+	margin-bottom: 30px;
+
+	text-align: center;
+
+	font-family: $Montserrat;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color:$clr2;
+
+	span{
+		color:$clr3;
+	}
+}
+
+button{
+	cursor: pointer;
+}
+
+
+@media (max-width: 768px){
+	.title{
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+}
