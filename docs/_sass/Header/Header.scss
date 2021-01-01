@@ -12,7 +12,8 @@ header{
 	flex-wrap: wrap;
 	align-items: center;
 
-	background-color: rgba(41,41,41,.9);
+	background-color: $clr2;
+	box-shadow: 0 5px 10px 2px rgba($color: #333, $alpha: .1);
 	z-index: 999999;
 }
 
@@ -75,8 +76,9 @@ header{
 		position: relative;
 
 		display: inline-block;
+		overflow: hidden;
 
-		padding-left: 10px;
+		padding:  10px 15px;
 
 		text-decoration: none;
 		font-family: inherit;
@@ -84,19 +86,38 @@ header{
 		font-size: inherit;
 		color:inherit;
 
-		border-left:1px solid transparent;
-
 		transition: border-color .3s ease , opacity .3s ease;
 
 		&:focus,&:hover,&.active{
 			outline: 0;
 
 			border-color: $clr3;
+
+			&::before{
+				transform: translateX(0);
+				transition: transform .3s ease;
+			}
 		}
 
 		&.active:focus,
 		&.active:hover{
 			opacity: .8;
+		}
+
+		&::before{
+			content: '';
+			display: block;
+
+			width: 100%;
+			height: 1px;
+
+			position: absolute;
+			bottom: 0;
+			left: 0;
+
+			background-color: $clr3;
+			transform: translateX(-100%);
+			z-index: -1;
 		}
 	}
 }
@@ -230,7 +251,7 @@ header{
 	min-height: 100vh;
 
 	color:$clr2;
-	background-color: rgba(0,0,0,.6);
+	background-color: $clr2;
 
 
 	.site-nav{
@@ -259,6 +280,8 @@ header{
 			&.active,&:focus,&:hover{
 				border-left:0;
 				border-color:$clr3;
+				background-color: $clr1;
+				color:$clr2;
 			}
 		}
 	}

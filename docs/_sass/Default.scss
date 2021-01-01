@@ -4,8 +4,8 @@ body{
 
 	font-family: $open_sans;
 	font-size: $d_font_size;
-	color:$clr2;
-	background-color: $clr1;
+	color:$clr1;
+	background-color: $clr2;
 
 	&.fixed{
 		overflow: hidden;
@@ -51,7 +51,7 @@ body{
 		text-transform: uppercase;
 		font-size: 28px;
 		font-weight: bold;
-		color:$clr2;
+		color:$clr1;
 	}
 }
 

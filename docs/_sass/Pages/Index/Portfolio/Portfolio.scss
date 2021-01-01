@@ -34,7 +34,8 @@
 	}
 
 	&>a{
-		display: block;
+		width: 100%;
+
 		text-decoration: none;
 		color:inherit;
 
@@ -52,8 +53,8 @@
 			}
 
 			.portfolio-desc{
-				background-color: $clr2;
-				color:$clr1;
+				background-color: $clr1;
+				color:$clr2;
 
 				border-top:1px solid $clr3;
 			}
@@ -69,9 +70,8 @@
 
 	overflow: hidden;
 
-	background: linear-gradient(110deg, rgb(51, 51, 51) 0%, rgb(231, 136, 53) 100%);
+	background: linear-gradient(110deg, rgb(51, 51, 51) 0%, rgba(61, 212, 212, 0.3) 100%);
 	z-index: 1;
-
 	img{
 		width: 100%;
 		height: 100%;
@@ -116,10 +116,10 @@
 	padding: 15px;
 
 	font-family: $roboto;
-	color: $clr2;
+	color: $clr1;
 
 	border-top:1px solid transparent;
-	border-bottom: 1px solid $clr2;
+	border-bottom: 1px solid $clr1;
 
 	transition: color .5s ease, background-color .5s ease;
 
@@ -153,7 +153,7 @@
 }
 
 .portfolio-link{
-	@include default_btn($clr2,$clr1,$clr2);
+	@include default_btn($clr1,$clr1,$clr2);
 }
 
 @media(max-width: 1200px){

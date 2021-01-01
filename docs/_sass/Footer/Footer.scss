@@ -1,8 +1,8 @@
 footer{
 	width: 100%;
 
-	background-color: #222;
-	color: $clr1;
+	background-color:$clr1;
+	color: $clr2;
 }
 
 .footer-container{
@@ -61,11 +61,11 @@ footer{
 		width: 15px;
 		height: auto;
 
-		fill:$clr1;
+		fill:$clr2;
 	}
 
 	path{
-		fill:$clr1;
+		fill:$clr2;
 	}
 
 	p{
@@ -87,7 +87,7 @@ footer{
 	text-align: center;
 	font-size: 12px;
 	font-weight: bold;
-	color:$clr1;
+	color:$clr2;
 
 	border-top: 1px solid rgba(234,234,234,0.5);
 
